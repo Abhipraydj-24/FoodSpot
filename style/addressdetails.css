@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.title-style {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(52, 0%, 98%);
+}
+
+.title-quote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: hsl(52, 0%, 98%);
+}
+
+.footer-address .fa {
+    margin-right: 10px;
+    color: #f9c56a;
+    width: 18px;
+    text-align: center;
+}
+
+.footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.footer-social-icons ul {
+    list-style: none;
+    display: flex;
+    margin-left: -15px;
+}
+
+.footer-social-icons a {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-social-icons ul li a {
+    position: relative;
+    display: inline-block;
+    color: #666;
+    font-size: 17px;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: black;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.footer-social-icons ul li a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.footer-social-icons ul li:nth-child(1):before {
+    background: #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2):before {
+    background: #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3):before {
+    background: #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4):before {
+    background: #FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5):before {
+    background: #db4a39;
+}
+
+.footer-social-icons ul li:nth-child(5):before {
+    background: #BD081C;
+}
+
+.footer-social-icons ul li :hover:before {
+    transform: scale(1.2);
+    filter: blur(1px);
+}
+
+.footer-social-icons ul li:nth-child(1) :hover:before {
+    box-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2) :hover:before {
+    box-shadow: 0 0 15px #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3) :hover:before {
+    box-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4) :hover:before {
+    box-shadow: 0 0 15px #FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5) :hover:before {
+    box-shadow: 0 0 15px #405DE6;
+}
+
+.footer-social-icons ul li:nth-child(6) :hover:before {
+    box-shadow: 0 0 15px #BD081C;
+    ;
+}
+
+.footer-social-icons ul li:nth-child(1) :hover {
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2) :hover {
+    color: #1DA1F2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3) :hover {
+    color: #4267B2;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px#4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4) :hover {
+    color: #FF0000;
+    box-shadow: 0 0 15px #FF0000;
+    text-shadow: 0 0 15px#FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5) :hover {
+    color: #405DE6;
+    box-shadow: 0 0 15px #405DE6;
+    text-shadow: 0 0 15px#405DE6;
+}
+
+.footer-social-icons ul li:nth-child(6) :hover {
+    color: #BD081C;
+    box-shadow: 0 0 15px #BD081C;
+    text-shadow: 0 0 15px#BD081C;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    ;
+}
+
+.container-fluid {
+    margin-top: 70px
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.40rem
+}
+
+.img-sm {
+    width: 80px;
+    height: 80px
+}
+
+.itemside .info {
+    padding-left: 15px;
+    padding-right: 7px
+}
+
+.table-shopping-cart .price-wrap {
+    line-height: 1.2
+}
+
+.table-shopping-cart .price {
+    margin-right: 5px;
+    display: block;
+}
+
+.text-muted {
+    color: #969696 !important
+}
+
+dt {
+    color: #212529;
+}
+
+dd {
+    color: #212529;
+}
+
+.quantity {
+    height: auto;
+    width: 70px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0px
+}
+
+.itemside {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%
+}
+
+.dlist-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+[class*="dlist-"] {
+    margin-bottom: 5px
+}
+
+.coupon {
+    border-radius: 1px
+}
+
+.price {
+    color: #212529
+}
+
+.btn.btn-out {
+    outline: 1px solid #fff;
+    outline-offset: -5px
+}
+
+.btn-main {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%
+}
+
+.btn-light {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #f8f9fa;
+    font-size: 12px
+}
+
+.btn-light:hover {
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #F44336
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.icons {
+    margin-left: auto
+}
+
+form span {
+    color: rgb(179, 179, 179)
+}
+
+form {
+    padding: 0 0;
+}
+
+.payemntform input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.left {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.right {
+    background-color: #ffffff;
+    padding: 2vh
+}
+
+.col-8 {
+    padding: 0 1vh
+}
+
+input[type=checkbox] {
+    width: unset;
+    margin-bottom: unset
+}
+
+#cvv {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.575), rgba(255, 255, 255, 0.541)), url("https://img.icons8.com/material-outlined/24/000000/help.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center
+}

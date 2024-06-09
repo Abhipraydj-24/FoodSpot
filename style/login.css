@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url('../images/bg789.jpg');
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+#pop {
+    position: center;
+    left: 50%;
+    right: 50%;
+}
+
+.container {
+    width: 300px;
+    height: auto;
+    padding: 50px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #34495E;
+    margin: auto;
+    position: relative;
+}
+
+.img {
+    background-image: url('../images/users1.png');
+    width: 55px;
+    height: 55px;
+    display: absolute;
+    background-size: 100%;
+    position: absolute;
+    top: -15px;
+    left: 125px;
+}
+
+ul.container {
+    list-style-type: none;
+}
+
+ul.container li {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+ul.container li input {
+    width: 250px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(119, 136, 153, 0.198);
+    border-radius: 5px;
+}
+
+ul.container li input[type="button"] {
+    background-color: royalblue;
+    color: white;
+}
+
+#fp {
+    color: red;
+}
+
+#fo {
+    color: red;
+}
+
+.footer {
+    background-color: black;
+    background-image: url('../images/bg789.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.footer hr {
+    border-color: white;
+    opacity: 0.5;
+}
+
+hr {
+    border-color: white;
+    opacity: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    color: #34495E;
+    text-decoration: black;
+}
+
+h5 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.img {
+    width: 55px;
+    height: 55px;
+    background-size: 100%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 100px;
+    position: absolute;
+    top: -15px;
+    left: 125px;
+}
+
+.footer-address .fa {
+    margin-right: 10px;
+    color: #f9c56a;
+    width: 18px;
+    text-align: center;
+}
+
+.footer-social-icons ul {
+    list-style: none;
+    display: flex;
+    margin-left: -15px;
+}
+
+.footer-social-icons a {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-social-icons ul li a {
+    position: relative;
+    display: inline-block;
+    color: #666;
+    font-size: 17px;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: black;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.footer-social-icons ul li a:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.footer-social-icons ul li:nth-child(1):before {
+    background: #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2):before {
+    background: #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3):before {
+    background: #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4):before {
+    background: #FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5):before {
+    background: #db4a39;
+}
+
+.footer-social-icons ul li:nth-child(5):before {
+    background: #BD081C;
+}
+
+.footer-social-icons ul li :hover:before {
+    transform: scale(1.2);
+    filter: blur(1px);
+}
+
+.footer-social-icons ul li:nth-child(1) :hover:before {
+    box-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2) :hover:before {
+    box-shadow: 0 0 15px #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3) :hover:before {
+    box-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4) :hover:before {
+    box-shadow: 0 0 15px #FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5) :hover:before {
+    box-shadow: 0 0 15px #405DE6;
+}
+
+.footer-social-icons ul li:nth-child(6) :hover:before {
+    box-shadow: 0 0 15px #BD081C;
+    ;
+}
+
+.footer-social-icons ul li:nth-child(1) :hover {
+    color: #456cba;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+}
+
+.footer-social-icons ul li:nth-child(2) :hover {
+    color: #1DA1F2;
+    box-shadow: 0 0 15px #1DA1F2;
+    text-shadow: 0 0 15px #1DA1F2;
+}
+
+.footer-social-icons ul li:nth-child(3) :hover {
+    color: #4267B2;
+    box-shadow: 0 0 15px #4267B2;
+    text-shadow: 0 0 15px#4267B2;
+}
+
+.footer-social-icons ul li:nth-child(4) :hover {
+    color: #FF0000;
+    box-shadow: 0 0 15px #FF0000;
+    text-shadow: 0 0 15px#FF0000;
+}
+
+.footer-social-icons ul li:nth-child(5) :hover {
+    color: #405DE6;
+    box-shadow: 0 0 15px #405DE6;
+    text-shadow: 0 0 15px#405DE6;
+}
+
+.footer-social-icons ul li:nth-child(6) :hover {
+    color: #BD081C;
+    box-shadow: 0 0 15px #BD081C;
+    text-shadow: 0 0 15px#BD081C;
+}
