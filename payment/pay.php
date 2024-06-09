@@ -6,7 +6,7 @@ $price=$_POST['total'];
 
 include('instamojo/Instamojo.php');
 
-$api = new Instamojo\Instamojo('test_5c1f6e7979cb9ca10e13e359427','test_d2922b7b93e5d550055e7cc35a5' , 'https://test.instamojo.com/api/1.1/');
+$api = new Instamojo\Instamojo('','' , 'https://test.instamojo.com/api/1.1/');
 
 try {
     $response = $api->paymentRequestCreate(array(
